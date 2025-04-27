@@ -1,0 +1,127 @@
+# SportAs - All Products
+
+## Sportswear
+1. Men's Dri-FIT Training T-Shirt
+   - Price: ₹1,299
+   - Rating: 4.5/5 (128 reviews)
+   - Featured: Yes
+   
+2. Women's Performance Leggings
+   - Price: ₹1,899 (15% off)
+   - Rating: 4.7/5 (95 reviews)
+   - Featured: Yes
+   
+3. Men's Running Shorts
+   - Price: ₹999
+   - Rating: 4.3/5 (72 reviews)
+   
+4. Women's Sports Bra
+   - Price: ₹1,499
+   - Rating: 4.6/5 (84 reviews)
+   
+5. Unisex Compression Arm Sleeves
+   - Price: ₹699 (10% off)
+   - Rating: 4.2/5 (56 reviews)
+
+## Footwear
+1. Men's Running Shoes
+   - Price: ₹4,999
+   - Rating: 4.8/5 (156 reviews)
+   - Featured: Yes
+   
+2. Women's Cross-Training Shoes
+   - Price: ₹3,999 (20% off)
+   - Rating: 4.6/5 (92 reviews)
+   - Featured: Yes
+   
+3. Basketball High-Tops
+   - Price: ₹5,499
+   - Rating: 4.7/5 (78 reviews)
+   
+4. Tennis Court Shoes
+   - Price: ₹4,299
+   - Rating: 4.5/5 (64 reviews)
+   
+5. Trail Running Shoes
+   - Price: ₹5,999
+   - Rating: 4.8/5 (45 reviews)
+
+## Equipment
+1. Adjustable Dumbbell Set
+   - Price: ₹12,999
+   - Rating: 4.9/5 (112 reviews)
+   - Featured: Yes
+   
+2. Yoga Mat
+   - Price: ₹1,799 (10% off)
+   - Rating: 4.7/5 (89 reviews)
+   - Featured: Yes
+   
+3. Resistance Bands Set
+   - Price: ₹999
+   - Rating: 4.5/5 (76 reviews)
+   
+4. Basketball - Official Size
+   - Price: ₹1,499
+   - Rating: 4.6/5 (52 reviews)
+   
+5. Tennis Racket
+   - Price: ₹3,999 (15% off)
+   - Rating: 4.4/5 (38 reviews)
+
+## Gym
+1. Power Rack with Pull-up Bar
+   - Price: ₹24,999
+   - Rating: 4.9/5 (65 reviews)
+   - Featured: Yes
+   
+2. Adjustable Weight Bench
+   - Price: ₹8,999
+   - Rating: 4.7/5 (48 reviews)
+   - Featured: Yes
+   
+3. Kettlebell Set
+   - Price: ₹4,999 (10% off)
+   - Rating: 4.6/5 (42 reviews)
+   
+4. Foam Roller
+   - Price: ₹899
+   - Rating: 4.4/5 (35 reviews)
+   
+5. Battle Ropes
+   - Price: ₹3,499
+   - Rating: 4.5/5 (28 reviews)
+
+## Nutrition
+1. Whey Protein Isolate - 1kg
+   - Price: ₹2,999
+   - Rating: 4.8/5 (175 reviews)
+   - Featured: Yes
+   
+2. Pre-Workout Supplement - 300g
+   - Price: ₹1,799 (15% off)
+   - Rating: 4.6/5 (92 reviews)
+   - Featured: Yes
+   
+3. BCAA Powder - 500g
+   - Price: ₹1,499
+   - Rating: 4.5/5 (68 reviews)
+   
+4. Protein Bars - Box of 12
+   - Price: ₹1,299 (10% off)
+   - Rating: 4.4/5 (85 reviews)
+   
+5. Creatine Monohydrate - 500g
+   - Price: ₹999
+   - Rating: 4.7/5 (105 reviews)
+
+## Sort Options
+- Featured (default)
+- Price: Low to High
+- Price: High to Low
+- Newest
+
+## Filters Available
+- Category: Sportswear, Footwear, Equipment, Gym, Nutrition
+- Price Range: ₹0 - ₹10,000
+- Search by keyword

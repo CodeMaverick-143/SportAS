@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": "gym001",
+      "name": "Power Rack with Pull-up Bar",
+      "description": "Heavy-duty power rack with multiple safety positions and integrated pull-up bar.",
+      "longDescription": "Elevate your home gym with this commercial-grade power rack. The sturdy steel construction supports heavy loads for squats, bench press, and other compound movements. Multiple safety pin positions allow for safe solo training, while the integrated pull-up bar adds versatility to your workout routine. The wide base ensures stability even during the most intense lifting sessions.",
+      "price": 24999,
+      "category": "Gym",
+      "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
+      "stock": 5,
+      "rating": 4.9,
+      "reviews": 65,
+      "discount": 0,
+      "featured": true,
+      "specifications": [
+        { "name": "Material", "value": "Heavy-gauge steel" },
+        { "name": "Weight Capacity", "value": "450kg" },
+        { "name": "Dimensions", "value": "120cm x 120cm x 215cm" },
+        { "name": "Pull-up Bar Height", "value": "210cm" }
+      ]
+    },
+    {
+      "id": "gym002",
+      "name": "Adjustable Weight Bench",
+      "description": "Versatile weight bench with multiple incline positions and foldable design for storage.",
+      "price": 8999,
+      "category": "Gym",
+      "imageUrl": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b",
+      "stock": 12,
+      "rating": 4.7,
+      "reviews": 48,
+      "discount": 0,
+      "featured": true
+    },
+    {
+      "id": "gym003",
+      "name": "Kettlebell Set",
+      "description": "Set of 3 vinyl-coated kettlebells (8kg, 12kg, 16kg) for functional strength training.",
+      "price": 4999,
+      "category": "Gym",
+      "imageUrl": "https://images.unsplash.com/photo-1517344884110-96a9e85297b5",
+      "stock": 18,
+      "rating": 4.6,
+      "reviews": 42,
+      "discount": 10,
+      "featured": false
+    },
+    {
+      "id": "gym004",
+      "name": "Foam Roller",
+      "description": "High-density foam roller for myofascial release and muscle recovery.",
+      "price": 899,
+      "category": "Gym",
+      "imageUrl": "https://images.unsplash.com/photo-1626702942985-68fdbe86b8d7",
+      "stock": 40,
+      "rating": 4.4,
+      "reviews": 35,
+      "discount": 0,
+      "featured": false
+    },
+    {
+      "id": "gym005",
+      "name": "Battle Ropes",
+      "description": "10m battle ropes with protective sleeve for high-intensity interval training.",
+      "price": 3499,
+      "category": "Gym",
+      "imageUrl": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1",
+      "stock": 10,
+      "rating": 4.5,
+      "reviews": 28,
+      "discount": 0,
+      "featured": false
+    },
+    {
+      "id": "nut001",
+      "name": "Whey Protein Isolate - 1kg",
+      "description": "Premium whey protein isolate with 27g protein per serving and minimal carbs and fat.",
+      "longDescription": "Fuel your muscle recovery with this premium whey protein isolate. Each serving delivers 27g of high-quality protein with minimal carbs and fat, making it ideal for supporting muscle growth and recovery. The advanced filtration process ensures maximum purity and digestibility. Available in multiple flavors, this protein powder mixes easily with water or milk for a delicious post-workout shake.",
+      "price": 2999,
+      "category": "Nutrition",
+      "imageUrl": "https://images.unsplash.com/photo-1593095948071-474c5cc2989d",
+      "stock": 25,
+      "rating": 4.8,
+      "reviews": 175,
+      "discount": 0,
+      "featured": true,
+      "specifications": [
+        { "name": "Protein per serving", "value": "27g" },
+        { "name": "Servings", "value": "33" },
+        { "name": "Flavors", "value": "Chocolate, Vanilla, Strawberry" },
+        { "name": "Allergens", "value": "Contains milk. Produced in a facility that processes soy and egg." }
+      ]
+    },
+    {
+      "id": "nut002",
+      "name": "Pre-Workout Supplement - 300g",
+      "description": "Energy-boosting pre-workout formula with caffeine, beta-alanine, and citrulline malate.",
+      "price": 1799,
+      "category": "Nutrition",
+      "imageUrl": "https://images.unsplash.com/photo-1546453667-8a8d2d07bc20",
+      "stock": 30,
+      "rating": 4.6,
+      "reviews": 92,
+      "discount": 15,
+      "featured": true
+    },
+    {
+      "id": "nut003",
+      "name": "BCAA Powder - 500g",
+      "description": "Branched-chain amino acids supplement with 2:1:1 ratio of leucine, isoleucine, and valine.",
+      "price": 1499,
+      "category": "Nutrition",
+      "imageUrl": "https://images.unsplash.com/photo-1579722821273-0f6c1b1d2b0e",
+      "stock": 35,
+      "rating": 4.5,
+      "reviews": 68,
+      "discount": 0,
+      "featured": false
+    },
+    {
+      "id": "nut004",
+      "name": "Protein Bars - Box of 12",
+      "description": "Protein-rich snack bars with 20g protein and low sugar content.",
+      "price": 1299,
+      "category": "Nutrition",
+      "imageUrl": "https://images.unsplash.com/photo-1607443821279-719bbf702b3f",
+      "stock": 45,
+      "rating": 4.4,
+      "reviews": 85,
+      "discount": 10,
+      "featured": false
+    },
+    {
+      "id": "nut005",
+      "name": "Creatine Monohydrate - 500g",
+      "description": "Pure creatine monohydrate powder for strength and power enhancement.",
+      "price": 999,
+      "category": "Nutrition",
+      "imageUrl": "https://images.unsplash.com/photo-1627467959547-8e66e50f0af5",
+      "stock": 40,
+      "rating": 4.7,
+      "reviews": 105,
+      "discount": 0,
+      "featured": false
+    }
+  ]
+}

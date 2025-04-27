@@ -1,0 +1,83 @@
+# SportAs Product List
+
+## Sportswear
+1. Men's Dri-FIT Training T-Shirt - ₹1,299 
+   - Lightweight and breathable training t-shirt with moisture-wicking technology.
+   
+2. Women's Performance Leggings - ₹1,899 (15% off)
+   - High-waisted compression leggings with four-way stretch fabric.
+   
+3. Men's Running Shorts - ₹999
+   - Lightweight running shorts with built-in liner and side pockets.
+   
+4. Women's Sports Bra - ₹1,499
+   - Medium-support sports bra with racerback design for maximum mobility.
+   
+5. Unisex Compression Arm Sleeves - ₹699 (10% off)
+   - Compression arm sleeves to improve blood circulation and muscle recovery.
+
+## Footwear
+1. Men's Running Shoes - ₹4,999
+   - Lightweight running shoes with responsive cushioning and breathable mesh upper.
+   
+2. Women's Cross-Training Shoes - ₹3,999 (20% off)
+   - Versatile training shoes with stable base and flexible forefoot for multi-directional movements.
+   
+3. Basketball High-Tops - ₹5,499
+   - High-top basketball shoes with ankle support and cushioned midsole for explosive movements.
+   
+4. Tennis Court Shoes - ₹4,299
+   - Durable tennis shoes with non-marking outsole and lateral support for quick side-to-side movements.
+   
+5. Trail Running Shoes - ₹5,999
+   - Rugged trail running shoes with aggressive tread pattern and rock plate for protection on rough terrain.
+
+## Equipment
+1. Adjustable Dumbbell Set - ₹12,999
+   - Space-saving adjustable dumbbells with weight range from 2.5kg to 25kg per dumbbell.
+   
+2. Yoga Mat - ₹1,799 (10% off)
+   - Non-slip yoga mat with alignment lines and eco-friendly TPE material.
+   
+3. Resistance Bands Set - ₹999
+   - Set of 5 resistance bands with different resistance levels for versatile workouts.
+   
+4. Basketball - Official Size - ₹1,499
+   - Official size and weight basketball with premium composite leather cover.
+   
+5. Tennis Racket - ₹3,999 (15% off)
+   - Intermediate-level tennis racket with balanced power and control.
+
+## Gym
+1. Power Rack with Pull-up Bar - ₹24,999
+   - Heavy-duty power rack with multiple safety positions and integrated pull-up bar.
+   
+2. Adjustable Weight Bench - ₹8,999
+   - Versatile weight bench with multiple incline positions and foldable design for storage.
+   
+3. Kettlebell Set - ₹4,999 (10% off)
+   - Set of 3 vinyl-coated kettlebells (8kg, 12kg, 16kg) for functional strength training.
+   
+4. Foam Roller - ₹899
+   - High-density foam roller for myofascial release and muscle recovery.
+   
+5. Battle Ropes - ₹3,499
+   - 10m battle ropes with protective sleeve for high-intensity interval training.
+
+## Nutrition
+1. Whey Protein Isolate - 1kg - ₹2,999
+   - Premium whey protein isolate with 27g protein per serving and minimal carbs and fat.
+   
+2. Pre-Workout Supplement - 300g - ₹1,799 (15% off)
+   - Energy-boosting pre-workout formula with caffeine, beta-alanine, and citrulline malate.
+   
+3. BCAA Powder - 500g - ₹1,499
+   - Branched-chain amino acids supplement with 2:1:1 ratio of leucine, isoleucine, and valine.
+   
+4. Protein Bars - Box of 12 - ₹1,299 (10% off)
+   - Protein-rich snack bars with 20g protein and low sugar content.
+   
+5. Creatine Monohydrate - 500g - ₹999
+   - Pure creatine monohydrate powder for strength and power enhancement.
+
+
