@@ -1,7 +1,5 @@
 # SportAs - Sports E-Commerce Platform
 
-![SportAs Logo](public/logo.svg)
-
 ## 🚀 Overview
 
 SportAs is a full-stack e-commerce platform specifically designed for sports and fitness products. Built with modern web technologies, it offers a seamless shopping experience with a clean, responsive design and robust backend functionality.
@@ -88,12 +86,6 @@ SportAs is a full-stack e-commerce platform specifically designed for sports and
    JWT_SECRET=your_jwt_secret
    NEXTAUTH_URL=http://localhost:3000
    MONGO_URI=your_mongodb_connection_string
-   EMAIL_HOST=your_smtp_host
-   EMAIL_PORT=your_smtp_port
-   EMAIL_SECURE=true_or_false
-   EMAIL_USER=your_email_username
-   EMAIL_PASSWORD=your_email_password
-   EMAIL_FROM=your_sender_email
    ```
 
 4. Run development server:
