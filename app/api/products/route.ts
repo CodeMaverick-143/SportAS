@@ -5,7 +5,6 @@ import Product from "@/models/product"
 export async function GET(request: NextRequest) {
   console.log('--- /api/products called ---');
   try {
-  try {
     // Connect to the database
     await connectToDatabase()
 
