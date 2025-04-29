@@ -10,16 +10,33 @@ export const authOptions: NextAuthOptions = {
         password: { label: "Password", type: "password" }
       },
       async authorize(credentials) {
-        // TODO: Implement your own logic to validate credentials
-        // Example: fetch user from database and verify password
         if (!credentials?.email || !credentials?.password) {
-          return null
+          return null;
         }
-        // Replace this with real user lookup
-        if (credentials.email === "admin@example.com" && credentials.password === "password") {
-          return { id: "1", name: "Admin", email: "admin@example.com" }
+        try {
+          // Dynamically import to avoid Next.js build issues
+          const { connectToDatabase } = await import("@/lib/db");
+          const User = (await import("@/models/user")).default;
+          await connectToDatabase();
+          // Find user by email (password is select: false by default)
+          const user = await User.findOne({ email: credentials.email.toLowerCase().trim() }).select("+password");
+          if (!user) return null;
+          // Compare password
+          const isMatch = await (user.comparePassword
+            ? user.comparePassword(credentials.password)
+            : (await import("bcryptjs")).compare(credentials.password, user.password));
+          if (!isMatch) return null;
+          // Return user info for session
+          return {
+            id: user._id.toString(),
+            name: user.name,
+            email: user.email,
+            isAdmin: user.isAdmin || false,
+          };
+        } catch (err) {
+          console.error("NextAuth authorize error:", err);
+          return null;
         }
-        return null
       }
     })
   ],
