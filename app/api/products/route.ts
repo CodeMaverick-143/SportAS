@@ -3,11 +3,14 @@ import { connectToDatabase } from "@/lib/db"
 import Product from "@/models/product"
 
 export async function GET(request: NextRequest) {
+  console.log('--- /api/products called ---');
+  try {
   try {
     // Connect to the database
     await connectToDatabase()
 
     const { searchParams } = new URL(request.url)
+    console.log('Query params:', Object.fromEntries(searchParams.entries()));
 
     // Parse query parameters
     const search = searchParams.get("search") || ""
@@ -35,6 +38,8 @@ export async function GET(request: NextRequest) {
       query.featured = true
     }
 
+    console.log('MongoDB query:', JSON.stringify(query));
+
     // Execute query with sorting
     let productsQuery = Product.find(query)
 
@@ -59,11 +64,14 @@ export async function GET(request: NextRequest) {
     }
 
     const products = await productsQuery.exec()
-
+    console.log('Products found:', products.length);
     return NextResponse.json(products, { status: 200 })
   } catch (error) {
-    console.error("Error fetching products:", error)
-    return NextResponse.json({ success: false, message: "Error fetching products" }, { status: 500 })
+    console.error("Error fetching products:", error);
+    if (error instanceof Error) {
+      console.error('Stack trace:', error.stack);
+    }
+    return NextResponse.json({ success: false, message: "Error fetching products", error: String(error) }, { status: 500 })
   }
 }
 
