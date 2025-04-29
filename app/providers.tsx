@@ -7,7 +7,7 @@ import { AuthProvider } from '@/context/auth-context'
 import { Toaster } from '@/components/ui/toaster'
 import { SessionProvider } from 'next-auth/react'
 
-export function Providers({ children }: { children: React.ReactNode }) {
+export default function Providers({ children }: { children: React.ReactNode }) {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
