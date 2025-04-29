@@ -5,34 +5,43 @@ import type { Product, Order, UserType } from "@/types"
 // Authentication APIs
 export async function loginUser(email: string, password: string): Promise<UserType> {
   try {
-    console.log('Attempting login for:', email)
-    const response = await fetch("/api/auth/login", {
+    const endpoint = "/api/auth/login";
+    console.log('Attempting login for:', email);
+    console.log('Logging in via:', endpoint);
+    const response = await fetch(endpoint, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ email, password }),
-      // Add credentials to ensure cookies are sent/received
       credentials: 'include'
-    })
+    });
 
     if (!response.ok) {
-      const errorData = await response.json().catch(() => ({ message: 'Login failed' }))
-      console.error('Login error:', errorData)
-      throw new Error(errorData.message || `Login failed with status: ${response.status}`)
+      const text = await response.text();
+      const isHTML = text.trim().startsWith('<!DOCTYPE html>');
+      const errorData = isHTML
+        ? { message: `Server returned HTML. Possible 404 at ${response.url}` }
+        : (() => {
+            try {
+              return JSON.parse(text);
+            } catch {
+              return { message: text || 'Login failed' };
+            }
+          })();
+      console.error('Login error:', errorData);
+      throw new Error(errorData.message || `Login failed with status: ${response.status}`);
     }
 
-    const data = await response.json()
-    
+    const data = await response.json();
     if (!data.user) {
-      throw new Error('Invalid user data received from server')
+      throw new Error('Invalid user data received from server');
     }
-    
-    console.log('Login successful')
-    return data.user
+    console.log('Login successful');
+    return data.user;
   } catch (error) {
-    console.error('Login process error:', error)
-    throw error
+    console.error('Login process error:', error);
+    throw error;
   }
 }
 
