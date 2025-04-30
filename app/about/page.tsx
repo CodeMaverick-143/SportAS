@@ -10,7 +10,6 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
-      {/* Hero Section */}
       <div className="mb-16 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">About SportAs</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -18,7 +17,6 @@ export default function AboutPage() {
         </p>
       </div>
 
-      {/* About Us Content */}
       <div className="grid md:grid-cols-2 gap-12 mb-16 items-center">
         <div>
           <h2 className="text-3xl font-bold mb-6">Our Story</h2>
@@ -42,7 +40,6 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Values Section */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-center">Our Values</h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -78,7 +75,6 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Why Choose Us */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-center">Why Choose SportAs</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -156,7 +152,6 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* CTA Section */}
       <div className="bg-emerald-700 text-white rounded-xl p-8 text-center">
         <h2 className="text-3xl font-bold mb-4">Ready to Gear Up?</h2>
         <p className="text-xl mb-6 max-w-2xl mx-auto">
